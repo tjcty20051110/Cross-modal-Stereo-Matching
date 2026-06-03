@@ -1,0 +1,16 @@
+[train] manifest="data/MS2/manifest_nir_rgb_train.csv" output="models/siamese_resnet50.pt" epochs=50 batch_size=1 samples_per_image=256 lr=0.001 margin=0.2 max_samples=0 use_gpu=1
+[train] using CUDA device
+[train] gradient accumulation steps=1 (effective batch_size=1)
+[epoch 1/50] batch 20 loss=0.192077 triplets=256
+[epoch 1/50] batch 40 loss=0.194347 triplets=256
+[epoch 1/50] batch 60 loss=0.189307 triplets=256
+[epoch 1/50] batch 80 loss=0.203605 triplets=256
+[epoch 1/50] batch 100 loss=0.194967 triplets=256
+[epoch 1/50] batch 120 loss=0.198697 triplets=256
+[epoch 1/50] batch 140 loss=0.197688 triplets=256
+[epoch 1/50] batch 160 loss=0.198122 triplets=256
+[epoch 1/50] batch 180 loss=0.190214 triplets=256
+[epoch 1/50] batch 200 loss=0.181672 triplets=256
+[epoch 1/50] batch 220 loss=0.190912 triplets=256
+[epoch 1/50] batch 240 loss=0.190487 triplets=256
+[epoch 1/50] batch 260 loss=0.188976 triplets=256

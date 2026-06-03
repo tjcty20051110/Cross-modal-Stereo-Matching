@@ -1,0 +1,41 @@
+# ==============================================================================
+# Cross-modal stereo matching configuration (RGB left + NIR left)
+# ==============================================================================
+# Uses smaller max_disparity since the cross-modal baseline is only ~54mm
+# (compared to ~299mm for same-modality RGB stereo)
+# ==============================================================================
+
+max_disparity: 32                   # Smaller disparity range for short baseline
+feature_method: CENSUS              # Census transform is modality-invariant
+cost_metric: CENSUS_HAMMING         # Hamming distance on Census descriptors
+aggregation_method: SGM             # Semi-Global Matching
+
+sgm:
+  num_directions: 8
+  p1: 5                             # Lower penalties for small disparity range
+  p2: 60
+
+post_processing:
+  enable_lr_check: true
+  enable_hole_filling: true
+  lr_threshold: 1.0
+
+depth:
+  depth_max_meter: 100.0
+
+preprocessing:
+  enable_clahe: true
+  clahe_clip_limit: 4
+  clahe_tile_size: 8
+  enable_gradient_alignment: false
+
+dl:
+  use_dl_features: false
+  fallback_to_handcraft: true
+  inference_backend: ONNX_RUNTIME
+  model_weights_path: ""
+  use_gpu: false
+
+io:
+  manifest_path: "./data/MS2/manifest_cross.csv"
+  output_dir: "./output/cross_modal"

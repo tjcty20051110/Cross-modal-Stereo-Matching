@@ -1,0 +1,155 @@
+[cfm-train] using CUDA device
+[cfm-train] stage=ALL epochs=50 accum_steps=8 num_disparities=96 depth_range=[1, 80]
+[epoch 1/50] batch 25 loss=166.745
+[epoch 1/50] batch 50 loss=109.95
+[epoch 1] batches=63 avg_loss=189.469
+[epoch 2/50] batch 25 loss=133.012
+[epoch 2/50] batch 50 loss=116.479
+[epoch 2] batches=63 avg_loss=130.896
+[epoch 3/50] batch 25 loss=148.622
+[epoch 3/50] batch 50 loss=91.6938
+[epoch 3] batches=63 avg_loss=126.441
+[epoch 4/50] batch 25 loss=92.164
+[epoch 4/50] batch 50 loss=76.1442
+[epoch 4] batches=63 avg_loss=87.6192
+[epoch 5/50] batch 25 loss=82.83
+[epoch 5/50] batch 50 loss=64.8301
+[epoch 5] batches=63 avg_loss=84.405
+[epoch 6/50] batch 25 loss=93.349
+[epoch 6/50] batch 50 loss=81.7507
+[epoch 6] batches=63 avg_loss=85.7867
+[epoch 7/50] batch 25 loss=92.8847
+[epoch 7/50] batch 50 loss=75.8888
+[epoch 7] batches=63 avg_loss=79.7144
+[epoch 8/50] batch 25 loss=76.6839
+[epoch 8/50] batch 50 loss=66.8899
+[epoch 8] batches=63 avg_loss=74.7204
+[epoch 9/50] batch 25 loss=61.5998
+[epoch 9/50] batch 50 loss=58.7846
+[epoch 9] batches=63 avg_loss=62.3439
+[epoch 10/50] batch 25 loss=69.4544
+[epoch 10/50] batch 50 loss=61.7967
+[epoch 10] batches=63 avg_loss=64.4357
+[epoch 11/50] batch 25 loss=72.2349
+[epoch 11/50] batch 50 loss=48.5255
+[epoch 11] batches=63 avg_loss=58.927
+[epoch 12/50] batch 25 loss=48.8341
+[epoch 12/50] batch 50 loss=50.2882
+[epoch 12] batches=63 avg_loss=53.0757
+[epoch 13/50] batch 25 loss=47.9201
+[epoch 13/50] batch 50 loss=42.7601
+[epoch 13] batches=63 avg_loss=50.3225
+[epoch 14/50] batch 25 loss=60.6629
+[epoch 14/50] batch 50 loss=49.1411
+[epoch 14] batches=63 avg_loss=44.4989
+[epoch 15/50] batch 25 loss=42.488
+[epoch 15/50] batch 50 loss=39.1364
+[epoch 15] batches=63 avg_loss=43.3295
+[epoch 16/50] batch 25 loss=41.4029
+[epoch 16/50] batch 50 loss=41.044
+[epoch 16] batches=63 avg_loss=42.1718
+[epoch 17/50] batch 25 loss=34.5276
+[epoch 17/50] batch 50 loss=35.2077
+[epoch 17] batches=63 avg_loss=37.1699
+[epoch 18/50] batch 25 loss=40.9222
+[epoch 18/50] batch 50 loss=26.5773
+[epoch 18] batches=63 avg_loss=36.4211
+[epoch 19/50] batch 25 loss=28.6326
+[epoch 19/50] batch 50 loss=28.0229
+[epoch 19] batches=63 avg_loss=31.0719
+[epoch 20/50] batch 25 loss=34.973
+[epoch 20/50] batch 50 loss=26.7915
+[epoch 20] batches=63 avg_loss=31.079
+[epoch 21/50] batch 25 loss=23.9394
+[epoch 21/50] batch 50 loss=29.9022
+[epoch 21] batches=63 avg_loss=26.2611
+[epoch 22/50] batch 25 loss=29.9919
+[epoch 22/50] batch 50 loss=24.864
+[epoch 22] batches=63 avg_loss=26.8372
+[epoch 23/50] batch 25 loss=22.9625
+[epoch 23/50] batch 50 loss=22.6126
+[epoch 23] batches=63 avg_loss=23.5063
+[epoch 24/50] batch 25 loss=22.3958
+[epoch 24/50] batch 50 loss=21.2206
+[epoch 24] batches=63 avg_loss=22.0914
+[epoch 25/50] batch 25 loss=19.876
+[epoch 25/50] batch 50 loss=19.3674
+[epoch 25] batches=63 avg_loss=20.5171
+[epoch 26/50] batch 25 loss=20.3908
+[epoch 26/50] batch 50 loss=18.9469
+[epoch 26] batches=63 avg_loss=19.1927
+[epoch 27/50] batch 25 loss=18.9101
+[epoch 27/50] batch 50 loss=16.4548
+[epoch 27] batches=63 avg_loss=18.4747
+[epoch 28/50] batch 25 loss=15.7549
+[epoch 28/50] batch 50 loss=16.2665
+[epoch 28] batches=63 avg_loss=17.4265
+[epoch 29/50] batch 25 loss=16.9401
+[epoch 29/50] batch 50 loss=16.5923
+[epoch 29] batches=63 avg_loss=16.1663
+[epoch 30/50] batch 25 loss=15.7341
+[epoch 30/50] batch 50 loss=14.9412
+[epoch 30] batches=63 avg_loss=15.516
+[epoch 31/50] batch 25 loss=15.4954
+[epoch 31/50] batch 50 loss=14.1161
+[epoch 31] batches=63 avg_loss=14.703
+[epoch 32/50] batch 25 loss=15.3196
+[epoch 32/50] batch 50 loss=14.2511
+[epoch 32] batches=63 avg_loss=14.1062
+[epoch 33/50] batch 25 loss=13.746
+[epoch 33/50] batch 50 loss=13.0895
+[epoch 33] batches=63 avg_loss=13.5823
+[epoch 34/50] batch 25 loss=13.1673
+[epoch 34/50] batch 50 loss=13.7574
+[epoch 34] batches=63 avg_loss=13.1898
+[epoch 35/50] batch 25 loss=13.739
+[epoch 35/50] batch 50 loss=12.1612
+[epoch 35] batches=63 avg_loss=12.7328
+[epoch 36/50] batch 25 loss=12.7149
+[epoch 36/50] batch 50 loss=11.4291
+[epoch 36] batches=63 avg_loss=12.4032
+[epoch 37/50] batch 25 loss=12.9694
+[epoch 37/50] batch 50 loss=11.0024
+[epoch 37] batches=63 avg_loss=12.133
+[epoch 38/50] batch 25 loss=12.2686
+[epoch 38/50] batch 50 loss=12.1287
+[epoch 38] batches=63 avg_loss=11.9195
+[epoch 39/50] batch 25 loss=11.7569
+[epoch 39/50] batch 50 loss=11.8715
+[epoch 39] batches=63 avg_loss=11.7114
+[epoch 40/50] batch 25 loss=12.4941
+[epoch 40/50] batch 50 loss=11.5194
+[epoch 40] batches=63 avg_loss=11.5436
+[epoch 41/50] batch 25 loss=10.6764
+[epoch 41/50] batch 50 loss=12.7295
+[epoch 41] batches=63 avg_loss=11.405
+[epoch 42/50] batch 25 loss=10.7709
+[epoch 42/50] batch 50 loss=12.1485
+[epoch 42] batches=63 avg_loss=11.2996
+[epoch 43/50] batch 25 loss=11.3955
+[epoch 43/50] batch 50 loss=11.2561
+[epoch 43] batches=63 avg_loss=11.1841
+[epoch 44/50] batch 25 loss=10.8624
+[epoch 44/50] batch 50 loss=10.3913
+[epoch 44] batches=63 avg_loss=11.0865
+[epoch 45/50] batch 25 loss=11.2828
+[epoch 45/50] batch 50 loss=11.5674
+[epoch 45] batches=63 avg_loss=10.9883
+[epoch 46/50] batch 25 loss=10.6532
+[epoch 46/50] batch 50 loss=10.9449
+[epoch 46] batches=63 avg_loss=10.8959
+[epoch 47/50] batch 25 loss=10.2691
+[epoch 47/50] batch 50 loss=10.7472
+[epoch 47] batches=63 avg_loss=10.8065
+[epoch 48/50] batch 25 loss=9.83383
+[epoch 48/50] batch 50 loss=10.3874
+[epoch 48] batches=63 avg_loss=10.7602
+[epoch 49/50] batch 25 loss=11.5158
+[epoch 49/50] batch 50 loss=10.0989
+[epoch 49] batches=63 avg_loss=10.6603
+[epoch 50/50] batch 25 loss=10.5364
+[epoch 50/50] batch 50 loss=11.3885
+[epoch 50] batches=63 avg_loss=10.6189
+[cfm-train] total elapsed=2218.19 sec
+[cfm-train] saved model to "models/cfm.pt"
+cfm-train took 2218.45 sec, samples=0

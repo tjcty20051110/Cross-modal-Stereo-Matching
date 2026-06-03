@@ -1,0 +1,47 @@
+# Build artifacts
+build/
+build_*/
+build-*/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+Testing/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dataset / runtime outputs (keep .gitkeep)
+output/*
+!output/.gitkeep
+models/*
+!models/.gitkeep
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

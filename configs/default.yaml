@@ -1,0 +1,66 @@
+# ==============================================================================
+# Default configuration for the Cross-Modal Stereo Matching System
+# ==============================================================================
+# All fields mirror the PipelineConfig struct declared in
+# src/config/config_manager.h. Values here are the pipeline defaults used when
+# the corresponding key is omitted from a user-supplied configuration.
+#
+# The `run` CLI subcommand can execute successfully against the bundled sample
+# manifest using this file without any edits (Req 15.4).
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Core matching parameters
+# ------------------------------------------------------------------------------
+max_disparity: 128                  # Maximum disparity to search (pixels)
+feature_method: CENSUS              # CENSUS | GRADIENT_ORIENTATION | DL_FEATURE
+cost_metric: CENSUS_HAMMING         # NCC | CENSUS_HAMMING | COSINE_SIMILARITY
+aggregation_method: SGM             # SGM | GUIDED_FILTER
+
+# ------------------------------------------------------------------------------
+# Semi-Global Matching parameters
+# ------------------------------------------------------------------------------
+sgm:
+  num_directions: 8                 # 4, 8, or 16 scanline directions
+  p1: 10                            # Small disparity-change penalty
+  p2: 120                           # Large disparity-change penalty (P2 > P1)
+
+# ------------------------------------------------------------------------------
+# Disparity post-processing
+# ------------------------------------------------------------------------------
+post_processing:
+  enable_lr_check: true             # Left-right consistency check
+  enable_hole_filling: true         # Fill invalidated pixels via neighborhood
+  lr_threshold: 1.0                 # Pixel threshold for L/R consistency
+
+# ------------------------------------------------------------------------------
+# Disparity → depth conversion
+# ------------------------------------------------------------------------------
+depth:
+  depth_max_meter: 100.0            # Clamp depth values above this to the limit
+
+# ------------------------------------------------------------------------------
+# Preprocessing
+# ------------------------------------------------------------------------------
+preprocessing:
+  enable_clahe: true
+  clahe_clip_limit: 4
+  clahe_tile_size: 8
+  enable_gradient_alignment: false
+
+# ------------------------------------------------------------------------------
+# Deep-learning feature path (optional)
+# ------------------------------------------------------------------------------
+dl:
+  use_dl_features: false
+  fallback_to_handcraft: true       # Fall back to Census on load/infer failure
+  inference_backend: ONNX_RUNTIME   # ONNX_RUNTIME | LIBTORCH | OPENCV_DNN | TENSORRT
+  model_weights_path: ""            # Absolute path to the .onnx / .pt model
+  use_gpu: false
+
+# ------------------------------------------------------------------------------
+# I/O paths
+# ------------------------------------------------------------------------------
+io:
+  manifest_path: "./data/MS2/manifest.csv"  # Required for `run` subcommand
+  output_dir: "./output"

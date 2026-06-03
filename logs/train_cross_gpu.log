@@ -1,0 +1,170 @@
+[train] manifest="data/MS2/manifest_nir_rgb_train.csv" output="models/siamese_cross.pt" epochs=15 batch_size=1 samples_per_image=256 lr=0.001 margin=0.2 max_samples=0 use_gpu=1
+[train] using CUDA device
+[epoch 1/15] batch 20 loss=0.197847 triplets=256
+[epoch 1/15] batch 40 loss=0.19148 triplets=256
+[epoch 1/15] batch 60 loss=0.199374 triplets=256
+[epoch 1/15] batch 80 loss=0.201521 triplets=256
+[epoch 1/15] batch 100 loss=0.20497 triplets=256
+[epoch 1/15] batch 120 loss=0.202332 triplets=256
+[epoch 1/15] batch 140 loss=0.198766 triplets=256
+[epoch 1/15] batch 160 loss=0.195428 triplets=256
+[epoch 1/15] batch 180 loss=0.202403 triplets=256
+[epoch 1/15] batch 200 loss=0.195166 triplets=256
+[epoch 1] batches=200 avg_loss=0.198592
+[epoch 2/15] batch 20 loss=0.194066 triplets=256
+[epoch 2/15] batch 40 loss=0.206213 triplets=256
+[epoch 2/15] batch 60 loss=0.197636 triplets=256
+[epoch 2/15] batch 80 loss=0.205585 triplets=256
+[epoch 2/15] batch 100 loss=0.192605 triplets=256
+[epoch 2/15] batch 120 loss=0.193252 triplets=256
+[epoch 2/15] batch 140 loss=0.192787 triplets=256
+[epoch 2/15] batch 160 loss=0.197062 triplets=256
+[epoch 2/15] batch 180 loss=0.183426 triplets=256
+[epoch 2/15] batch 200 loss=0.198532 triplets=256
+[epoch 2] batches=200 avg_loss=0.19547
+[epoch 3/15] batch 20 loss=0.193651 triplets=256
+[epoch 3/15] batch 40 loss=0.183226 triplets=256
+[epoch 3/15] batch 60 loss=0.19818 triplets=256
+[epoch 3/15] batch 80 loss=0.193691 triplets=256
+[epoch 3/15] batch 100 loss=0.189799 triplets=256
+[epoch 3/15] batch 120 loss=0.197448 triplets=256
+[epoch 3/15] batch 140 loss=0.194029 triplets=256
+[epoch 3/15] batch 160 loss=0.197254 triplets=256
+[epoch 3/15] batch 180 loss=0.196634 triplets=256
+[epoch 3/15] batch 200 loss=0.188368 triplets=256
+[epoch 3] batches=200 avg_loss=0.194487
+[epoch 4/15] batch 20 loss=0.202929 triplets=256
+[epoch 4/15] batch 40 loss=0.183717 triplets=256
+[epoch 4/15] batch 60 loss=0.182031 triplets=256
+[epoch 4/15] batch 80 loss=0.188908 triplets=256
+[epoch 4/15] batch 100 loss=0.183555 triplets=256
+[epoch 4/15] batch 120 loss=0.191746 triplets=256
+[epoch 4/15] batch 140 loss=0.189784 triplets=256
+[epoch 4/15] batch 160 loss=0.190888 triplets=256
+[epoch 4/15] batch 180 loss=0.191925 triplets=256
+[epoch 4/15] batch 200 loss=0.190916 triplets=256
+[epoch 4] batches=200 avg_loss=0.190264
+[epoch 5/15] batch 20 loss=0.172317 triplets=256
+[epoch 5/15] batch 40 loss=0.186434 triplets=256
+[epoch 5/15] batch 60 loss=0.188569 triplets=256
+[epoch 5/15] batch 80 loss=0.196168 triplets=256
+[epoch 5/15] batch 100 loss=0.181816 triplets=256
+[epoch 5/15] batch 120 loss=0.199877 triplets=256
+[epoch 5/15] batch 140 loss=0.201995 triplets=256
+[epoch 5/15] batch 160 loss=0.182449 triplets=256
+[epoch 5/15] batch 180 loss=0.170108 triplets=256
+[epoch 5/15] batch 200 loss=0.18353 triplets=256
+[epoch 5] batches=200 avg_loss=0.184938
+[epoch 6/15] batch 20 loss=0.181364 triplets=256
+[epoch 6/15] batch 40 loss=0.172951 triplets=256
+[epoch 6/15] batch 60 loss=0.179399 triplets=256
+[epoch 6/15] batch 80 loss=0.192547 triplets=256
+[epoch 6/15] batch 100 loss=0.189515 triplets=256
+[epoch 6/15] batch 120 loss=0.163647 triplets=256
+[epoch 6/15] batch 140 loss=0.18406 triplets=256
+[epoch 6/15] batch 160 loss=0.177351 triplets=256
+[epoch 6/15] batch 180 loss=0.164037 triplets=256
+[epoch 6/15] batch 200 loss=0.177632 triplets=256
+[epoch 6] batches=200 avg_loss=0.178171
+[epoch 7/15] batch 20 loss=0.167305 triplets=256
+[epoch 7/15] batch 40 loss=0.165411 triplets=256
+[epoch 7/15] batch 60 loss=0.181314 triplets=256
+[epoch 7/15] batch 80 loss=0.172365 triplets=256
+[epoch 7/15] batch 100 loss=0.179378 triplets=256
+[epoch 7/15] batch 120 loss=0.178629 triplets=256
+[epoch 7/15] batch 140 loss=0.184517 triplets=256
+[epoch 7/15] batch 160 loss=0.170455 triplets=256
+[epoch 7/15] batch 180 loss=0.13567 triplets=256
+[epoch 7/15] batch 200 loss=0.139219 triplets=256
+[epoch 7] batches=200 avg_loss=0.171735
+[epoch 8/15] batch 20 loss=0.170472 triplets=256
+[epoch 8/15] batch 40 loss=0.16589 triplets=256
+[epoch 8/15] batch 60 loss=0.174884 triplets=256
+[epoch 8/15] batch 80 loss=0.178085 triplets=256
+[epoch 8/15] batch 100 loss=0.161246 triplets=256
+[epoch 8/15] batch 120 loss=0.170863 triplets=256
+[epoch 8/15] batch 140 loss=0.194616 triplets=256
+[epoch 8/15] batch 160 loss=0.148023 triplets=256
+[epoch 8/15] batch 180 loss=0.183588 triplets=256
+[epoch 8/15] batch 200 loss=0.161159 triplets=256
+[epoch 8] batches=200 avg_loss=0.166407
+[epoch 9/15] batch 20 loss=0.140215 triplets=256
+[epoch 9/15] batch 40 loss=0.163262 triplets=256
+[epoch 9/15] batch 60 loss=0.167321 triplets=256
+[epoch 9/15] batch 80 loss=0.148392 triplets=256
+[epoch 9/15] batch 100 loss=0.160729 triplets=256
+[epoch 9/15] batch 120 loss=0.163679 triplets=256
+[epoch 9/15] batch 140 loss=0.151401 triplets=256
+[epoch 9/15] batch 160 loss=0.161926 triplets=256
+[epoch 9/15] batch 180 loss=0.168859 triplets=256
+[epoch 9/15] batch 200 loss=0.144216 triplets=256
+[epoch 9] batches=200 avg_loss=0.159432
+[epoch 10/15] batch 20 loss=0.151822 triplets=256
+[epoch 10/15] batch 40 loss=0.125609 triplets=256
+[epoch 10/15] batch 60 loss=0.162156 triplets=256
+[epoch 10/15] batch 80 loss=0.148201 triplets=256
+[epoch 10/15] batch 100 loss=0.153666 triplets=256
+[epoch 10/15] batch 120 loss=0.145001 triplets=256
+[epoch 10/15] batch 140 loss=0.205164 triplets=256
+[epoch 10/15] batch 160 loss=0.15639 triplets=256
+[epoch 10/15] batch 180 loss=0.14759 triplets=256
+[epoch 10/15] batch 200 loss=0.158041 triplets=256
+[epoch 10] batches=200 avg_loss=0.153231
+[epoch 11/15] batch 20 loss=0.136035 triplets=256
+[epoch 11/15] batch 40 loss=0.15215 triplets=256
+[epoch 11/15] batch 60 loss=0.14863 triplets=256
+[epoch 11/15] batch 80 loss=0.139781 triplets=256
+[epoch 11/15] batch 100 loss=0.144685 triplets=256
+[epoch 11/15] batch 120 loss=0.119352 triplets=256
+[epoch 11/15] batch 140 loss=0.175603 triplets=256
+[epoch 11/15] batch 160 loss=0.138659 triplets=256
+[epoch 11/15] batch 180 loss=0.172747 triplets=256
+[epoch 11/15] batch 200 loss=0.110452 triplets=256
+[epoch 11] batches=200 avg_loss=0.148911
+[epoch 12/15] batch 20 loss=0.148482 triplets=256
+[epoch 12/15] batch 40 loss=0.156867 triplets=256
+[epoch 12/15] batch 60 loss=0.122955 triplets=256
+[epoch 12/15] batch 80 loss=0.14351 triplets=256
+[epoch 12/15] batch 100 loss=0.151533 triplets=256
+[epoch 12/15] batch 120 loss=0.153941 triplets=256
+[epoch 12/15] batch 140 loss=0.167057 triplets=256
+[epoch 12/15] batch 160 loss=0.12329 triplets=256
+[epoch 12/15] batch 180 loss=0.142259 triplets=256
+[epoch 12/15] batch 200 loss=0.204879 triplets=256
+[epoch 12] batches=200 avg_loss=0.142119
+[epoch 13/15] batch 20 loss=0.146991 triplets=256
+[epoch 13/15] batch 40 loss=0.134669 triplets=256
+[epoch 13/15] batch 60 loss=0.156287 triplets=256
+[epoch 13/15] batch 80 loss=0.130561 triplets=256
+[epoch 13/15] batch 100 loss=0.140727 triplets=256
+[epoch 13/15] batch 120 loss=0.160435 triplets=256
+[epoch 13/15] batch 140 loss=0.101328 triplets=256
+[epoch 13/15] batch 160 loss=0.153342 triplets=256
+[epoch 13/15] batch 180 loss=0.127215 triplets=256
+[epoch 13/15] batch 200 loss=0.134746 triplets=256
+[epoch 13] batches=200 avg_loss=0.136865
+[epoch 14/15] batch 20 loss=0.126556 triplets=256
+[epoch 14/15] batch 40 loss=0.155542 triplets=256
+[epoch 14/15] batch 60 loss=0.140874 triplets=256
+[epoch 14/15] batch 80 loss=0.14649 triplets=256
+[epoch 14/15] batch 100 loss=0.124954 triplets=256
+[epoch 14/15] batch 120 loss=0.106944 triplets=256
+[epoch 14/15] batch 140 loss=0.120187 triplets=256
+[epoch 14/15] batch 160 loss=0.115057 triplets=256
+[epoch 14/15] batch 180 loss=0.112875 triplets=256
+[epoch 14/15] batch 200 loss=0.159932 triplets=256
+[epoch 14] batches=200 avg_loss=0.131441
+[epoch 15/15] batch 20 loss=0.141194 triplets=256
+[epoch 15/15] batch 40 loss=0.0892878 triplets=256
+[epoch 15/15] batch 60 loss=0.105352 triplets=256
+[epoch 15/15] batch 80 loss=0.133369 triplets=256
+[epoch 15/15] batch 100 loss=0.126854 triplets=256
+[epoch 15/15] batch 120 loss=0.092434 triplets=256
+[epoch 15/15] batch 140 loss=0.141864 triplets=256
+[epoch 15/15] batch 160 loss=0.115708 triplets=256
+[epoch 15/15] batch 180 loss=0.105387 triplets=256
+[epoch 15/15] batch 200 loss=0.127204 triplets=256
+[epoch 15] batches=200 avg_loss=0.126269
+[train] total elapsed=1118.79 sec
+[train] saved LibTorch model to "models/siamese_cross.pt"
+train took 1120.76 sec, samples=0

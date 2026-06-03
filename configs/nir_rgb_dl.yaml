@@ -1,0 +1,38 @@
+# ==============================================================================
+# Cross-modal DL: NIR_left + RGB_right  with trained Siamese features
+# ==============================================================================
+
+max_disparity: 128
+feature_method: DL_FEATURE
+cost_metric: COSINE_SIMILARITY
+aggregation_method: SGM
+
+sgm:
+  num_directions: 8
+  p1: 10
+  p2: 120
+
+post_processing:
+  enable_lr_check: true
+  enable_hole_filling: true
+  lr_threshold: 1.0
+
+depth:
+  depth_max_meter: 100.0
+
+preprocessing:
+  enable_clahe: true
+  clahe_clip_limit: 4
+  clahe_tile_size: 8
+  enable_gradient_alignment: false
+
+dl:
+  use_dl_features: true
+  fallback_to_handcraft: true
+  inference_backend: LIBTORCH
+  model_weights_path: "./models/siamese_cross.pt"
+  use_gpu: false
+
+io:
+  manifest_path: "./data/MS2/manifest_nir_rgb.csv"
+  output_dir: "./output/nir_rgb_dl"

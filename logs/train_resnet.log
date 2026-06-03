@@ -1,0 +1,140 @@
+[train] manifest="data/MS2/manifest_train.csv" output="models/siamese_resnet.pt" epochs=15 batch_size=1 samples_per_image=256 lr=0.001 margin=0.2 max_samples=0 use_gpu=0
+[train] using CPU device
+[epoch 1/15] batch 10 loss=0.0274911 triplets=256
+[epoch 1/15] batch 20 loss=0.0310749 triplets=256
+[epoch 1/15] batch 30 loss=0.0247847 triplets=256
+[epoch 1/15] batch 40 loss=0.0198473 triplets=256
+[epoch 1/15] batch 50 loss=0.0183161 triplets=256
+[epoch 1/15] batch 60 loss=0.0141124 triplets=256
+[epoch 1/15] batch 70 loss=0.0161201 triplets=256
+[epoch 1/15] batch 80 loss=0.0129779 triplets=256
+[epoch 1] batches=80 avg_loss=0.0215366
+[epoch 2/15] batch 10 loss=0.0110481 triplets=256
+[epoch 2/15] batch 20 loss=0.00908818 triplets=256
+[epoch 2/15] batch 30 loss=0.0121243 triplets=256
+[epoch 2/15] batch 40 loss=0.0146903 triplets=256
+[epoch 2/15] batch 50 loss=0.0177703 triplets=256
+[epoch 2/15] batch 60 loss=0.0107985 triplets=256
+[epoch 2/15] batch 70 loss=0.0108032 triplets=256
+[epoch 2/15] batch 80 loss=0.0116044 triplets=256
+[epoch 2] batches=80 avg_loss=0.0128011
+[epoch 3/15] batch 10 loss=0.0124402 triplets=256
+[epoch 3/15] batch 20 loss=0.00744918 triplets=256
+[epoch 3/15] batch 30 loss=0.00520963 triplets=256
+[epoch 3/15] batch 40 loss=0.00950632 triplets=256
+[epoch 3/15] batch 50 loss=0.0091456 triplets=256
+[epoch 3/15] batch 60 loss=0.0107889 triplets=256
+[epoch 3/15] batch 70 loss=0.0092802 triplets=256
+[epoch 3/15] batch 80 loss=0.0116733 triplets=256
+[epoch 3] batches=80 avg_loss=0.0104104
+[epoch 4/15] batch 10 loss=0.00619488 triplets=256
+[epoch 4/15] batch 20 loss=0.0154943 triplets=256
+[epoch 4/15] batch 30 loss=0.00766033 triplets=256
+[epoch 4/15] batch 40 loss=0.0108271 triplets=256
+[epoch 4/15] batch 50 loss=0.00490555 triplets=256
+[epoch 4/15] batch 60 loss=0.0153614 triplets=256
+[epoch 4/15] batch 70 loss=0.00959102 triplets=256
+[epoch 4/15] batch 80 loss=0.0133739 triplets=256
+[epoch 4] batches=80 avg_loss=0.0097852
+[epoch 5/15] batch 10 loss=0.0155343 triplets=256
+[epoch 5/15] batch 20 loss=0.00900428 triplets=256
+[epoch 5/15] batch 30 loss=0.0068274 triplets=256
+[epoch 5/15] batch 40 loss=0.0120716 triplets=256
+[epoch 5/15] batch 50 loss=0.00677059 triplets=256
+[epoch 5/15] batch 60 loss=0.0119035 triplets=256
+[epoch 5/15] batch 70 loss=0.0100312 triplets=256
+[epoch 5/15] batch 80 loss=0.0221625 triplets=256
+[epoch 5] batches=80 avg_loss=0.00932281
+[epoch 6/15] batch 10 loss=0.0229364 triplets=256
+[epoch 6/15] batch 20 loss=0.00792839 triplets=256
+[epoch 6/15] batch 30 loss=0.0176227 triplets=256
+[epoch 6/15] batch 40 loss=0.005062 triplets=256
+[epoch 6/15] batch 50 loss=0.0134922 triplets=256
+[epoch 6/15] batch 60 loss=0.00899064 triplets=256
+[epoch 6/15] batch 70 loss=0.0106177 triplets=256
+[epoch 6/15] batch 80 loss=0.00980218 triplets=256
+[epoch 6] batches=80 avg_loss=0.00854576
+[epoch 7/15] batch 10 loss=0.00666845 triplets=256
+[epoch 7/15] batch 20 loss=0.00664961 triplets=256
+[epoch 7/15] batch 30 loss=0.00814477 triplets=256
+[epoch 7/15] batch 40 loss=0.0164786 triplets=256
+[epoch 7/15] batch 50 loss=0.00564406 triplets=256
+[epoch 7/15] batch 60 loss=0.011174 triplets=256
+[epoch 7/15] batch 70 loss=0.00511414 triplets=256
+[epoch 7/15] batch 80 loss=0.009999 triplets=256
+[epoch 7] batches=80 avg_loss=0.00798291
+[epoch 8/15] batch 10 loss=0.00392411 triplets=256
+[epoch 8/15] batch 20 loss=0.00990746 triplets=256
+[epoch 8/15] batch 30 loss=0.00866025 triplets=256
+[epoch 8/15] batch 40 loss=0.00334351 triplets=256
+[epoch 8/15] batch 50 loss=0.0116919 triplets=256
+[epoch 8/15] batch 60 loss=0.00856181 triplets=256
+[epoch 8/15] batch 70 loss=0.00349702 triplets=256
+[epoch 8/15] batch 80 loss=0.00563859 triplets=256
+[epoch 8] batches=80 avg_loss=0.00747424
+[epoch 9/15] batch 10 loss=0.00368374 triplets=256
+[epoch 9/15] batch 20 loss=0.0132398 triplets=256
+[epoch 9/15] batch 30 loss=0.0105191 triplets=256
+[epoch 9/15] batch 40 loss=0.0126158 triplets=256
+[epoch 9/15] batch 50 loss=0.00409167 triplets=256
+[epoch 9/15] batch 60 loss=0.0040645 triplets=256
+[epoch 9/15] batch 70 loss=0.00496589 triplets=256
+[epoch 9/15] batch 80 loss=0.00366669 triplets=256
+[epoch 9] batches=80 avg_loss=0.00679283
+[epoch 10/15] batch 10 loss=0.00407255 triplets=256
+[epoch 10/15] batch 20 loss=0.00659399 triplets=256
+[epoch 10/15] batch 30 loss=0.0117061 triplets=256
+[epoch 10/15] batch 40 loss=0.00656655 triplets=256
+[epoch 10/15] batch 50 loss=0.014935 triplets=256
+[epoch 10/15] batch 60 loss=0.00466101 triplets=256
+[epoch 10/15] batch 70 loss=0.00538992 triplets=256
+[epoch 10/15] batch 80 loss=0.00287578 triplets=256
+[epoch 10] batches=80 avg_loss=0.00684942
+[epoch 11/15] batch 10 loss=0.00846052 triplets=256
+[epoch 11/15] batch 20 loss=0.0050886 triplets=256
+[epoch 11/15] batch 30 loss=0.00698292 triplets=256
+[epoch 11/15] batch 40 loss=0.00754091 triplets=256
+[epoch 11/15] batch 50 loss=0.0051631 triplets=256
+[epoch 11/15] batch 60 loss=0.0100653 triplets=256
+[epoch 11/15] batch 70 loss=0.00371077 triplets=256
+[epoch 11/15] batch 80 loss=0.0127893 triplets=256
+[epoch 11] batches=80 avg_loss=0.0068682
+[epoch 12/15] batch 10 loss=0.00598209 triplets=256
+[epoch 12/15] batch 20 loss=0.00904765 triplets=256
+[epoch 12/15] batch 30 loss=0.00360006 triplets=256
+[epoch 12/15] batch 40 loss=0.00614909 triplets=256
+[epoch 12/15] batch 50 loss=0.00527161 triplets=256
+[epoch 12/15] batch 60 loss=0.00667369 triplets=256
+[epoch 12/15] batch 70 loss=0.00379496 triplets=256
+[epoch 12/15] batch 80 loss=0.00259464 triplets=256
+[epoch 12] batches=80 avg_loss=0.00669973
+[epoch 13/15] batch 10 loss=0.00521789 triplets=256
+[epoch 13/15] batch 20 loss=0.00522636 triplets=256
+[epoch 13/15] batch 30 loss=0.00396077 triplets=256
+[epoch 13/15] batch 40 loss=0.00493459 triplets=256
+[epoch 13/15] batch 50 loss=0.0036282 triplets=256
+[epoch 13/15] batch 60 loss=0.00578725 triplets=256
+[epoch 13/15] batch 70 loss=0.00578242 triplets=256
+[epoch 13/15] batch 80 loss=0.012654 triplets=256
+[epoch 13] batches=80 avg_loss=0.00629546
+[epoch 14/15] batch 10 loss=0.00451682 triplets=256
+[epoch 14/15] batch 20 loss=0.00550439 triplets=256
+[epoch 14/15] batch 30 loss=0.00199386 triplets=256
+[epoch 14/15] batch 40 loss=0.00508136 triplets=256
+[epoch 14/15] batch 50 loss=0.00552498 triplets=256
+[epoch 14/15] batch 60 loss=0.00870006 triplets=256
+[epoch 14/15] batch 70 loss=0.00307183 triplets=256
+[epoch 14/15] batch 80 loss=0.00778701 triplets=256
+[epoch 14] batches=80 avg_loss=0.00611581
+[epoch 15/15] batch 10 loss=0.00873779 triplets=256
+[epoch 15/15] batch 20 loss=0.00619361 triplets=256
+[epoch 15/15] batch 30 loss=0.00973017 triplets=256
+[epoch 15/15] batch 40 loss=0.00291392 triplets=256
+[epoch 15/15] batch 50 loss=0.00640043 triplets=256
+[epoch 15/15] batch 60 loss=0.00270471 triplets=256
+[epoch 15/15] batch 70 loss=0.00517159 triplets=256
+[epoch 15/15] batch 80 loss=0.00793052 triplets=256
+[epoch 15] batches=80 avg_loss=0.00608585
+[train] total elapsed=9187.4 sec
+[train] saved LibTorch model to "models/siamese_resnet.pt"
+train took 9187.42 sec, samples=0

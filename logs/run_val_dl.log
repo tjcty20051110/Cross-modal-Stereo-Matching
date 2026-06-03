@@ -1,0 +1,25 @@
+PipelineConfig summary
+  max_disparity: 128
+  feature_method: DL_FEATURE
+  cost_metric: COSINE_SIMILARITY
+  aggregation_method: SGM
+  sgm.num_directions: 8
+  sgm.p1: 10
+  sgm.p2: 120
+  post_processing.enable_lr_check: 1
+  post_processing.enable_hole_filling: 1
+  post_processing.lr_threshold: 1
+  depth.depth_max_meter: 100
+  preprocessing.enable_clahe: 1
+  preprocessing.clahe_clip_limit: 4
+  preprocessing.clahe_tile_size: 8
+  preprocessing.enable_gradient_alignment: 0
+  dl.use_dl_features: 1
+  dl.fallback_to_handcraft: 1
+  dl.inference_backend: LIBTORCH
+  dl.model_weights_path: ./models/siamese_resnet.pt
+  dl.use_gpu: 0
+  io.manifest_path: data/MS2/manifest_val.csv
+  io.output_dir: output/val_dl
+run finished: success=10, failed=0
+run took 163.639 sec, samples=10

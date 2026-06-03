@@ -1,0 +1,17 @@
+# Informational config for three-stage CFM training. Not yet consumed by cms CLI — runbook uses scripts/train_cfm_3stage.sh with command-line flags.
+cfm:
+  manifest_train: data/MS2/manifest_nir_rgb_train.csv
+  manifest_val:   data/MS2/manifest_nir_rgb_val.csv
+  stages:
+    - { name: cfm,   epochs: 10, lr: 1.0e-4 }
+    - { name: mdp,   epochs: 10, lr: 1.0e-4 }
+    - { name: depth, epochs: 10, lr: 1.0e-4 }
+  batch_size: 4
+  num_disparities: 96
+  depth_min: 1.0
+  depth_max: 80.0
+  attention_mode: real_scaled_dot
+  mdp_backbone: resnet18
+  mdp_backbone_weights: models/pretrained/resnet18_in1k.pt
+  num_heads: 4
+  seed: 42
