@@ -293,13 +293,15 @@ int CLI::cmdVisualize(const std::vector<std::string>& args) {
         if (!sample.value().gt_disparity.empty()) {
             auto gt_color = visualizer.renderDisparityColor(sample.value().gt_disparity, config.max_disparity);
             auto heat = visualizer.renderErrorHeatmap(pred, sample.value().gt_disparity, sample.value().valid_mask);
-            auto comp = visualizer.renderComparison(sample.value().left_image, sample.value().right_image, pred_color, gt_color, true);
+            auto comp = visualizer.renderComparison(sample.value().left_image, sample.value().right_image,
+                                                     pred_color, gt_color, heat, true);
             visualizer.save(gt_color, sample.value().sample_id, "gt", viz_dir);
             visualizer.save(heat, sample.value().sample_id, "error", viz_dir);
             visualizer.save(comp, sample.value().sample_id, "comparison", viz_dir);
         } else {
             auto empty_gt = cv::Mat(pred.size(), CV_8UC3, cv::Scalar(127, 127, 127));
-            auto comp = visualizer.renderComparison(sample.value().left_image, sample.value().right_image, pred_color, empty_gt, false);
+            auto comp = visualizer.renderComparison(sample.value().left_image, sample.value().right_image,
+                                                     pred_color, empty_gt, false);
             visualizer.save(comp, sample.value().sample_id, "comparison", viz_dir);
         }
         ++written;
